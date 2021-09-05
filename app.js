@@ -14,9 +14,9 @@ function isTriangle() {
   const sumOfAngles = calculateSumOfAngles(a1, a2, a3);
 
   if (sumOfAngles === 180) {
-    console.log("Yay! This is a triangle");
+    outputEl.innerHTML = "Yay! This is a triangle";
   } else {
-    console.log("dhatt teri ki, this isn't a triangle");
+    outputEl.innerHTML = "dhatt teri ki, this isn't a triangle";
   }
 }
 
