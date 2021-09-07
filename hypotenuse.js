@@ -12,7 +12,7 @@ function calculateHypotenuse() {
   const v2 = Number(sideInput[1].value);
   const cal = hypoCal(v1, v2);
 
-  output.innerText = cal;
+  output.innerText = `The length of hypotenuse is ${cal}`;
 }
 
 calculate.addEventListener("click", calculateHypotenuse);
